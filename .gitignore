@@ -3,6 +3,9 @@ build/
 
 user.properties
 
+### MC ###
+/run/
+
 ### STS ###
 .apt_generated
 .classpath
