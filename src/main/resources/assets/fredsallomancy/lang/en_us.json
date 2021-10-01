@@ -1,0 +1,21 @@
+{
+  "item.fredsallomancy.pewter_ingot": "Pewter Ingot",
+  "block.fredsallomancy.pewter_block": "Block of Pewter",
+  "item.fredsallomancy.tin_ingot": "Tin Ingot",
+  "item.fredsallomancy.steel_ingot": "Steel Ingot",
+  "item.fredsallomancy.aluminium_ingot": "Aluminium Ingot",
+  "item.fredsallomancy.bendalloy_ingot": "Bendalloy Ingot",
+  "item.fredsallomancy.bronze_ingot": "Bronze Ingot",
+  "item.fredsallomancy.cadmium_ingot": "Cadmium Ingot",
+  "item.fredsallomancy.chromium_ingot": "Chromium Ingot",
+  "item.fredsallomancy.duralumin_ingot": "Duralumin Ingot",
+  "item.fredsallomancy.electrum_ingot": "Electrum Ingot",
+  "item.fredsallomancy.nicrosil_ingot": "Nicrosil Ingot",
+  "item.fredsallomancy.lerasium_ingot": "Lerasium Ingot",
+  "item.fredsallomancy.zinc_ingot": "Zinc Ingot",
+  "item.fredsallomancy.atium_ingot": "Atium Ingot",
+  "item.fredsallomancy.brass_ingot": "Brass Ingot",
+  "item.fredsallomancy.lerasium_nugget": "Nugget of Lerasium",
+  "item.fredsallomancy.atium_nugget": "Nugget of Atium",
+  "itemGroup.fredsallomancy.allomancy": "Allomancy Mod"
+}

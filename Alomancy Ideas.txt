@@ -1,0 +1,25 @@
+Steel / Iron : 
+	Blocks: players move to metal block
+	Item: metal iron goes to player
+
+Pewter: Strength + Res
+Tin: Nightvision + Glowing on entities
+
+Zinc: all mobs nearby become hyper agressive, passive when flaired
+Brass: all mobs are passive
+
+Copper: hide pulses
+Bronze: show pulses
+
+Duralium: increase power
+Aluminium: wipe power
+
+Nicrosil: increase power of others (effects, etc.)
+Chromium: wipe power of others (effects, etc.)
+
+Gold: naked self infront
+Electrum: self with armour/ armour is enchanted
+
+Cadmium: IDK, speed 1000, nearby tickspeed slows?
+Bendalloy: nearby tickspeed increases
+

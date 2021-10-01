@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.allomancybyfred.fredsallomancy.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "FredsAllomancyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

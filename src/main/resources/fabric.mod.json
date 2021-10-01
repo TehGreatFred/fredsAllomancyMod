@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fredsallomancy",
+  "version": "${version}",
+
+  "name": "Fred's Allomancy",
+  "description": "Adds allomancy to MC",
+  "authors": [
+    "Fred"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/TehGreatFred"
+
+  },
+
+  "license": "MIT",
+  "icon": "assets/fredsallomancy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.allomancybyfred.fredsallomancy.FredsAllomancy"
+    ]
+  },
+  "mixins": [
+    "fredsallomancy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
