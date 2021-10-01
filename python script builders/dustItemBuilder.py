@@ -1,0 +1,10 @@
+
+def dust():
+    varnames = ["ALLOMANTIC_DUST_STEEL","ALLOMANTIC_DUST_IRON","ALLOMANTIC_DUST_PEWTER","ALLOMANTIC_DUST_TIN","ALLOMANTIC_DUST_ZINC","ALLOMANTIC_DUST_BRASS","ALLOMANTIC_DUST_COPPER",
+                "ALLOMANTIC_DUST_BRONZE","ALLOMANTIC_DUST_DURALUMIN","ALLOMANTIC_DUST_ALUMINIUM","ALLOMANTIC_DUST_NICROSIL","ALLOMANTIC_DUST_CHROMIUM","ALLOMANTIC_DUST_GOLD","ALLOMANTIC_DUST_ELECTRUM",
+                "ALLOMANTIC_DUST_CADMIUM","ALLOMANTIC_DUST_BENDALLOY","ALLOMANTIC_DUST_ATIUM","ALLOMANTIC_DUST_LERASIUM"]
+
+    phrase = ''' public static final Item {upper} = registerItem( "{lower}",
+                new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));'''
+    for i in varnames:
+        print(phrase.format(upper = i, lower = i.lower()))
