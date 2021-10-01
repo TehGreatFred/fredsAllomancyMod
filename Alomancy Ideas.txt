@@ -11,7 +11,7 @@ Brass: all mobs are passive
 Copper: hide pulses
 Bronze: show pulses
 
-Duralium: increase power
+Duralium: increase power //found in chests
 Aluminium: wipe power
 
 Nicrosil: increase power of others (effects, etc.)
@@ -20,6 +20,8 @@ Chromium: wipe power of others (effects, etc.)
 Gold: naked self infront
 Electrum: self with armour/ armour is enchanted
 
-Cadmium: IDK, speed 1000, nearby tickspeed slows?
-Bendalloy: nearby tickspeed increases
+Cadmium: IDK, speed 1000, nearby tickspeed slows? //found in chests
+Bendalloy: nearby tickspeed increases //found in chests
 
+Atium: IDFK
+Lerasium: mistborn powers
