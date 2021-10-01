@@ -15,7 +15,34 @@
   "item.fredsallomancy.zinc_ingot": "Zinc Ingot",
   "item.fredsallomancy.atium_ingot": "Atium Ingot",
   "item.fredsallomancy.brass_ingot": "Brass Ingot",
+
+
   "item.fredsallomancy.lerasium_nugget": "Nugget of Lerasium",
   "item.fredsallomancy.atium_nugget": "Nugget of Atium",
+
+  "item.fredsallomancy.allomantic_dust": "Allomantic Dust",
+
+  "fredsallomancy.allomantic_dust_none": "No Metal",
+  "fredsallomancy.allomantic_dust_steel": "Steel",
+  "fredsallomancy.allomantic_dust_iron": "Iron",
+  "fredsallomancy.allomantic_dust_pewter": "Pewter",
+  "fredsallomancy.allomantic_dust_tin": "Tin",
+  "fredsallomancy.allomantic_dust_zinc": "Zinc",
+  "fredsallomancy.allomantic_dust_brass": "Brass",
+  "fredsallomancy.allomantic_dust_copper": "Copper",
+  "fredsallomancy.allomantic_dust_bronze": "Bronze",
+  "fredsallomancy.allomantic_dust_duralium": "Duralium",
+  "fredsallomancy.allomantic_dust_aluminium": "Aluminium",
+  "fredsallomancy.allomantic_dust_nicrosil": "Nicrosil",
+  "fredsallomancy.allomantic_dust_chromium": "Chromium",
+  "fredsallomancy.allomantic_dust_electrum": "Electrum",
+  "fredsallomancy.allomantic_dust_gold": "Gold",
+  "fredsallomancy.allomantic_dust_cadmium": "Cadmium",
+  "fredsallomancy.allomantic_dust_bendalloy": "Bendalloy",
+  "fredsallomancy.allomantic_dust_atium": "Atium",
+  "fredsallomancy.allomantic_dust_lerasium": "Lerasium",
+
+
+
   "itemGroup.fredsallomancy.allomancy": "Allomancy Mod"
 }

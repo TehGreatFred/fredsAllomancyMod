@@ -41,8 +41,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     public static final Item BRASS_INGOT = registerItem( "brass_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
-    //public static final Item ALLOMANTIC_DUST = registerItem( "allomantic_dust",
-    //        new AllomanticDust(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+    public static final Item ALLOMANTIC_DUST = registerItem( "allomantic_dust",
+            new AllomanticDust(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
 
     //Nuggets
     public static final Item LERASIUM_NUGGET = registerItem( "lerasium_nugget",
