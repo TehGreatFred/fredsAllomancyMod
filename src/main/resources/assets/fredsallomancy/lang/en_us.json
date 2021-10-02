@@ -52,6 +52,15 @@
   "item.fredsallomancy.atium_nugget": "Nugget of Atium",
   "item.fredsallomancy.lerasium_nugget": "Nugget of Lerasium",
 
+  "block.fredsallomancy.aluminium_ore": "Aluminium Ore",
+  "block.fredsallomancy.bismuth_ore": "Bismuth Ore",
+  "block.fredsallomancy.cadmium_ore": "Cadmium Ore",
+  "block.fredsallomancy.chromium_ore": "Chromium Ore",
+  "block.fredsallomancy.lead_ore": "Lead Ore",
+  "block.fredsallomancy.nickel_ore": "Nickel Ore",
+  "block.fredsallomancy.silver_ore": "Silver Ore",
+  "block.fredsallomancy.tin_ore": "Tin Ore",
+  "block.fredsallomancy.zinc_ore": "Zinc Ore",
 
   "item.fredsallomancy.metallurgy_hammer": "Metallurgy Hammer",
 

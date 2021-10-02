@@ -2,6 +2,8 @@ package net.allomancybyfred.fredsallomancy;
 
 import net.allomancybyfred.fredsallomancy.block.ModBlocks;
 import net.allomancybyfred.fredsallomancy.item.ModItems;
+import net.allomancybyfred.fredsallomancy.tags.BlockTags;
+import net.allomancybyfred.fredsallomancy.tags.ItemTags;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,7 +24,8 @@ public class FredsAllomancy implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
-		LOGGER.info("Hello Fabric world!");
+		BlockTags.registerModBlockTags();
+		ItemTags.registerModItemTags();
+		LOGGER.info("Fred's Allomancy");
 	}
 }

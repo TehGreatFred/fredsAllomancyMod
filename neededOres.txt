@@ -1,0 +1,11 @@
+tin ore
+zinc ore
+lead ore
+aluminium ore
+nickel ore
+chromium ore
+silver ore
+cadmium ore
+bismuth ore
+
+

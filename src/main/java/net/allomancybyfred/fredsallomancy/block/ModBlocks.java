@@ -13,13 +13,35 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import java.util.logging.Logger;
+
 public class ModBlocks {
 
     public static final Block PEWTER_BLOCK = registerBlock("pewter_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block LEAD_ORE = registerBlock("lead_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block NICKEL_ORE = registerBlock("nickel_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block CHROMIUM_ORE = registerBlock("chromium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,3).requiresTool()));
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,2).requiresTool()));
+    public static final Block CADMIUM_ORE = registerBlock("cadmium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,3).requiresTool()));
+    public static final Block BISMUTH_ORE = registerBlock("bismuth_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.4f).breakByTool(FabricToolTags.PICKAXES,3).requiresTool()));
 
 
 
+
+
+
+    //registry stuff
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
         return Registry.register(Registry.BLOCK,new Identifier(FredsAllomancy.MOD_ID,name), block);
@@ -33,6 +55,7 @@ public class ModBlocks {
 
 
     public static void registerModBlocks(){
-        System.out.println("Registering ModBlocks for " + FredsAllomancy.MOD_ID);
+        FredsAllomancy.LOGGER.info("Registering Mod Items for " + FredsAllomancy.MOD_ID);
+
     }
 }

@@ -7,6 +7,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.allomancybyfred.fredsallomancy.FredsAllomancy;
 
+import java.util.logging.Logger;
+
 public class ModItems {
     //shit load of these are commented, I generated the code automatically so if I want to implement in future I can
 
@@ -121,12 +123,17 @@ public class ModItems {
 
     public static final Item METALLURGY_HAMMER = registerItem( "metallurgy_hammer",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+
+
     //registry stuff
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(FredsAllomancy.MOD_ID, name), item);
     }
 
+
+
     public static void registerModItems() {
-        System.out.println("Registering Mod Items for " + FredsAllomancy.MOD_ID);
+
+        FredsAllomancy.LOGGER.info("Registering Mod Items for " + FredsAllomancy.MOD_ID);
     }
 }
