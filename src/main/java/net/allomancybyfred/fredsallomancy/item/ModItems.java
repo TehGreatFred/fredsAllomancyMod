@@ -1,15 +1,16 @@
 package net.allomancybyfred.fredsallomancy.item;
 
 
+import net.allomancybyfred.fredsallomancy.item.custom.MetallurgyHammer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.allomancybyfred.fredsallomancy.FredsAllomancy;
 
-import java.util.logging.Logger;
-
 public class ModItems {
+
+
     //shit load of these are commented, I generated the code automatically so if I want to implement in future I can
 
     /*
@@ -46,10 +47,14 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     */
     //dust, created with dustItemBuilder
+
+    public static final Item METALLURGY_HAMMER = registerItem( "metallurgy_hammer",
+            new MetallurgyHammer());
+
     public static final Item ALLOMANTIC_DUST_STEEL = registerItem( "allomantic_dust_steel",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     public static final Item ALLOMANTIC_DUST_IRON = registerItem( "allomantic_dust_iron",
-            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY).recipeRemainder(METALLURGY_HAMMER)));
     public static final Item ALLOMANTIC_DUST_PEWTER = registerItem( "allomantic_dust_pewter",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     public static final Item ALLOMANTIC_DUST_TIN = registerItem( "allomantic_dust_tin",
@@ -78,6 +83,14 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     public static final Item ALLOMANTIC_DUST_BENDALLOY = registerItem( "allomantic_dust_bendalloy",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+    public static final Item ALLOMANTIC_DUST_SILVER = registerItem( "allomantic_dust_silver",
+            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+    public static final Item ALLOMANTIC_DUST_BISMUTH = registerItem( "allomantic_dust_bismuth",
+            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+    public static final Item ALLOMANTIC_DUST_LEAD= registerItem( "allomantic_dust_lead",
+            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+    public static final Item ALLOMANTIC_DUST_NICKEL= registerItem( "allomantic_dust_nickel",
+            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     /*
     public static final Item ALLOMANTIC_DUST_ATIUM = registerItem( "allomantic_dust_atium",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
@@ -85,7 +98,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     */
     /*
-    //nuggets, created with dustItemBuilder
+    //nuggets, created with nuggetItemBuilder
     public static final Item STEEL_NUGGET = registerItem( "steel_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
     public static final Item PEWTER_NUGGET = registerItem( "pewter_nugget",
@@ -121,14 +134,14 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
 
 
-    public static final Item METALLURGY_HAMMER = registerItem( "metallurgy_hammer",
-            new Item(new FabricItemSettings().group(ModItemGroup.ALLOMANCY)));
+
 
 
     //registry stuff
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(FredsAllomancy.MOD_ID, name), item);
     }
+
 
 
 
